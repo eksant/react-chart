@@ -10,7 +10,7 @@
     "apps:install": "yarn && concurrently \"yarn apps:api\" \"yarn apps:app\"",
     "apps:migration": "yarn apps:api db:run:migration",
     "apps:seed": "yarn apps:api db:run:seed",
-    "start": "concurrently \"yarn apps:api start\""
+    "start": "concurrently \"yarn apps:api start\" \"yarn apps:app start\""
   },
   "devDependencies": {
     "concurrently": "^6.3.0"

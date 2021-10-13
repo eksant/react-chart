@@ -1,0 +1,45 @@
+@import '@/assets/styles/vars.less';
+
+section.ant-layout {
+  min-height: 100vh;
+
+  main.ant-layout-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 200px);
+  }
+
+  header.ant-layout-header {
+    background-color: transparent;
+
+    img {
+      width: 20%;
+    }
+
+    ul.ant-menu {
+      float: right;
+      background: transparent;
+
+      span.anticon {
+        font-size: 24px;
+      }
+    }
+  }
+
+  img.img-layout {
+    height: 20%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    opacity: 0.55;
+  }
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
