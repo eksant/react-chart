@@ -45,9 +45,11 @@ export class VaultService {
 
     if (name || date_start || date_end) {
       const q = this.parseWhereRaw({ name, date_start, date_end });
-      result = await TableVault().whereRaw(q.key, q.val);
+      result = await TableVault()
+        .whereRaw(q.key, q.val)
+        .orderBy('date_time', 'asc');
     } else {
-      result = await TableVault();
+      result = await TableVault().orderBy('date_time', 'asc');
     }
 
     return result;
