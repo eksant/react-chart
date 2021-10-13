@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "commonjs",
+    "target": "es2015",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "outDir": "./build",
+    "typeRoots": ["./types", "./node_modules/@types"]
+  },
+  "include": ["src", "index.ts", "database/migrations"]
+}
