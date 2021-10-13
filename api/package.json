@@ -2,7 +2,7 @@
   "name": "react-chart-api",
   "version": "0.1.0",
   "main": "index.js",
-  "author": "eksant <eksant@gmail.com>",
+  "author": "eksa <eksant@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "tsnd --transpile-only index.ts",

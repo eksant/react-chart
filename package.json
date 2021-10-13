@@ -1,0 +1,18 @@
+{
+  "name": "react-chart",
+  "version": "0.1.0",
+  "repository": "git@github.com:eksant/react-chart.git",
+  "author": "eksa <eksant@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "apps:api": "yarn --cwd api",
+    "apps:app": "yarn --cwd app",
+    "apps:install": "yarn && concurrently \"yarn apps:api\" \"yarn apps:app\"",
+    "apps:migration": "yarn apps:api db:run:migration",
+    "apps:seed": "yarn apps:api db:run:seed",
+    "start": "concurrently \"yarn apps:api start\""
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  }
+}
