@@ -8,7 +8,7 @@ React Chart is a dashboard project with below demo video using ReactJS, ExpressJ
 
 ## Video Demo
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:78.689%;"><iframe src="https://streamable.com/e/kwrh7p" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+[![image](https://user-images.githubusercontent.com/32409305/137228545-e457ddfb-c1a5-4cea-8544-8cd673b36c27.png)](https://streamable.com/kwrh7p)
 
 # Apps
 
